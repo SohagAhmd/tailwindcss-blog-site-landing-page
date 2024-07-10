@@ -745,16 +745,12 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-bg-image {
-  background-image: url('/assets/imgs/bg.png');
+.bg-\[url\(\'\.\.\/assets\/imgs\/bg\.png\'\)\] {
+  background-image: url('../assets/imgs/bg.png');
 }
 
 .bg-gradient-to-l {
   background-image: linear-gradient(to left, var(--tw-gradient-stops));
-}
-
-.bg-\[url\(\'\.\.\/assets\/imgs\/bg\.png\'\)\] {
-  background-image: url('../assets/imgs/bg.png');
 }
 
 .from-transparent {
