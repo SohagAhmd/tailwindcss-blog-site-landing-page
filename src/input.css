@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply border cursor-pointer border-white px-5 py-1 rounded-full text-nowrap transition-all duration-150 ease-in hover:bg-blue-400 hover:text-black active:scale-90;
+  }
+  .cart {
+    @apply h-auto border border-blue-400 flex flex-col items-center justify-around rounded-md shadow-sm cursor-pointer transition-all duration-500 hover:scale-105;
+  }
+  .catarory-dtls {
+    @apply text-white p-5 text-justify;
+  }
+  .img-size {
+    @apply w-full object-fill rounded-tl-sm rounded-tr-sm;
+  }
+}
